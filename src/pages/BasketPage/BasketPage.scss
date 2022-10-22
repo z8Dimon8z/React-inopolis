@@ -1,0 +1,125 @@
+$accent-color: #D58C51;
+$white: #FFFFFF;
+
+.basket{
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 54px 0 27px 0;
+
+  &__header{
+    margin-bottom: 38px;
+    display: flex;
+    gap: 63px;
+  }
+
+  &__pin{
+    background-color: transparent;
+    border: none;
+  }
+
+  &__title{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 38px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  &__item{
+    margin-bottom: 30px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
+
+.good{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 860px;
+  width: 100%;
+
+  &__main{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+
+  &__img{
+    width: 122px;
+    height: 122px;
+    object-fit: cover;
+  }
+
+  &__title{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    justify-content: flex-start;
+  }
+
+  // &__box{
+  //   display: flex;
+  //   align-items: center;
+  // }
+
+  &__price{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: $accent-color;
+    margin-right: 16px;
+  }
+
+  &__btn{
+    color:#D58C51;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid $accent-color;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.footer{
+  margin-top: 102px;
+  padding-top: 20px;
+  border-top: 1px solid $accent-color;
+
+  &__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    span{
+      display: inline-block;
+      margin-left: 16px;
+      font-size: 18px;
+      line-height: 22px;
+      color: $accent-color;
+    }
+  }
+
+  &__btn{
+    padding: 12px 40px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #131313;
+    background-color: $accent-color;
+  }
+}

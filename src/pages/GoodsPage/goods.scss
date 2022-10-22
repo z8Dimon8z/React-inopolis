@@ -1,0 +1,81 @@
+$accent-color: #D58C51;
+$black: #131313;
+$white: #FFFFFF;
+
+.main-trade{
+  padding-top: 37px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.top__trade_left{
+  justify-content: flex-end;
+}
+
+.trade{
+  height: 100vh;
+  &__card{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__img{
+    width: 500px;
+    height: 500px;
+  }
+
+  &__box{
+    padding-top: 58px;
+    padding-bottom: 61px;
+  }
+
+  &__title{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: $accent-color;
+    margin-bottom: 21px;
+  }
+
+  &__description{
+    max-width: 528px;
+    height: 213px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 34px;
+  }
+
+  &__good{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__products-price{
+    margin-right: 68px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__price{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+  }
+
+  &__weight{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &__btn{
+    padding: 12px 63px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $black;
+    background-color: $accent-color;
+  }
+}
